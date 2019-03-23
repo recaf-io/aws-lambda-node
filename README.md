@@ -57,6 +57,8 @@ If you want to build but not deploy:
 ./build.sh hello-lambda no
 ```
 
+Credit for build.sh goes to Sam Williams on his post here: https://medium.freecodecamp.org/aws-lambda-offering-developers-ultimate-flexibility-d8939ff4220
+
 ### A Note on Deployment
 The Lambda function in AWS will need to have the same name as the folder of the Lambda function in your project. If you want to deploy hello-lambda, then your Lambda function in AWS will need to be just that: hello-lambda
 
