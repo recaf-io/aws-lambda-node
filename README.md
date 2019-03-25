@@ -16,7 +16,7 @@ You will need to try different things on your Windows instance, but I find insta
 - AWS CLI: https://aws.amazon.com/cli/
 - Gow (Gnu On Windows): https://github.com/bmatzelle/gow/releases
 -- Might need a system restart for this to work
--- AWS SDK for Python: pip install boto3
+- AWS SDK for Python: pip install boto3
 
 # DON'Ts
 Don't delete the hello-lambda folder unless you build your own template folder. The new.sh script uses the hello-lambda folder as the default template for creating new Lambda functions.
